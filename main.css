@@ -1,4 +1,4 @@
-
+/* Default Style*/
 body {
     width: 100%;
     height: 100%;
@@ -12,6 +12,16 @@ h1, h2, h3, h4, h5, h6 {
     /*font-family:;*/
 }
 
+h5.title {
+    font-size: 18px;
+    padding: 20px;
+    margin: 0px;
+    color: #000000;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+/* Left Side Bar */
 .inner-left {
     position: absolute;
     left: 5%;
@@ -22,15 +32,12 @@ h1, h2, h3, h4, h5, h6 {
     background: #fff; 
 }
 
-h5.title {
-    font-size: 18px;
-    padding: 20px;
-    margin: 0px;
-    color: #000000;
-    letter-spacing: 1px;
-    border-bottom: 1px solid #e6e6e6;
+.inner-left img {
+    max-width: 100%;
+    height: auto;
 }
 
+/* Right Main Container */
 .inner-right {
     position: absolute;
     left: 22%;
