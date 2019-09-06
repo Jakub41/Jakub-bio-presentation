@@ -13,14 +13,13 @@ body {
 .presentation {
     padding: 0;
     background-color: #f5f5f5;
-    margin-top: -150px;
 }
 
 .container {
     background-color: #f5f5f5;
     line-height: 1;
     display: flex;
-    padding: 10%;
+    padding: 3% 20%;
     align-items: flex-start;
 }
 
@@ -43,6 +42,7 @@ h5.title {
     color: #000000;
     letter-spacing: 1px;
     border-bottom: 1px solid #e6e6e6;
+    text-align: center;
 }
 
 ul {
@@ -70,15 +70,17 @@ p {
 /* Left Side Bar */
 .inner-left {
     background: #fff;
-    flex: 0 0 15%;
+    flex: 1 1 15%;
     margin-right: 15px;
 }
 
+/* Avatar */
 .inner-left img {
     max-width: 100%;
     height: auto;
 }
 
+/* Personal Details */
 .inner-left .personal-info {
     position: relative;
     padding: 25px;
@@ -86,7 +88,6 @@ p {
 }
 
 .inner-left .personal-info li span {
-    width: 50%;
     float: left;
     text-transform: uppercase;
     font-weight: bold;
@@ -97,16 +98,18 @@ p {
     line-height: 30px;
 }
 
-.inner-left .personal-info li span {
-    width: 50%;
-    float: left;
-    text-transform: uppercase;
-    font-weight: bold;
+.detail-icon {
+    border: 1px solid #cdcdcd;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
 }
 
 /* Social Links */
 .social-links {
-    width: 55%;
+    max-width: 100%;
+    text-align: center;
 }
 
 .social-links li {
@@ -126,27 +129,47 @@ p {
 
 /* Social Icons */
 #fb {
-    background-image: url('facebook.png');
+    background-image: url('./icons/social-section/facebook.png');
     background-size: contain;
 }
 
 #tw {
-    background-image: url('twitter.png');
+    background-image: url('./icons/social-section/twitter.png');
     background-size: contain;
 }
 
 #gth {
-    background-image: url('github.png');
+    background-image: url('./icons/social-section/github.png');
     background-size: contain;
 }
 
 #li {
-    background-image: url('linkedin.png');
+    background-image: url('./icons/social-section/linkedin.png');
     background-repeat: no-repeat;
     background-size: 33px;
     background-position: center;
     border-radius: 50%;
     border-color: rgb(0, 89, 254);
+}
+
+/* Where Am I */
+.where-am-i {
+    max-width: 100%;
+}
+
+/* Google Map */
+.mapouter {
+    position: relative;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 300px;
+    width: 100%;
 }
 
 /* Right Main Container */
