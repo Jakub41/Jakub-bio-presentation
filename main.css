@@ -239,6 +239,7 @@ p {
     font-weight: bold;
 }
 
+/* CV Paragraph */
 .inner-right .professional-ex-section .cv-paragraph {
     display: flex;
     align-items: center;
@@ -246,6 +247,7 @@ p {
     line-height: 30px;
 }
 
+/* CV Download Icon */
 .inner-right .professional-ex-section .cv-paragraph a {
     background: url('./icons/experience-section/job-seeker.png') center / cover no-repeat;
     border: 1px solid rgb(122, 228, 0);
