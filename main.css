@@ -108,6 +108,7 @@ p {
 .social-links {
     width: 55%;
 }
+
 .social-links li {
     display: inline-block;
 }
@@ -140,6 +141,7 @@ p {
     background-image: url('github.png');
     background-size: contain;
 }
+
 #li {
     background-image: url('linkedin.png');
     background-repeat: no-repeat;
