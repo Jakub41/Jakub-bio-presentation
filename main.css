@@ -13,7 +13,7 @@ body {
 .presentation {
     padding: 0;
     background-color: #f5f5f5;
-    margin-top: -150px; 
+    margin-top: -150px;
 }
 
 .container {
@@ -57,6 +57,16 @@ p {
     text-rendering: optimizeLegibility;
 }
 
+/* Border Bottom Style */
+.border-bottom {
+    border-bottom: 1px solid #e6e6e6;
+}
+
+/* Padding Class Set To 25px */
+.padding-25 {
+    padding: 25px !important;
+}
+
 /* Left Side Bar */
 .inner-left {
     background: #fff;
@@ -94,6 +104,50 @@ p {
     font-weight: bold;
 }
 
+/* Social Links */
+.social-links {
+    width: 55%;
+}
+.social-links li {
+    display: inline-block;
+}
+
+.social-links li a {
+    color: #333333;
+    border: 1px solid #cdcdcd;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    line-height: 48px;
+    margin-right: 8px;
+}
+
+/* Social Icons */
+#fb {
+    background-image: url('facebook.png');
+    background-size: contain;
+}
+
+#tw {
+    background-image: url('twitter.png');
+    background-size: contain;
+}
+
+#gth {
+    background-image: url('github.png');
+    background-size: contain;
+}
+#li {
+    background-image: url('linkedin.png');
+    background-repeat: no-repeat;
+    background-size: 33px;
+    background-position: center;
+    border-radius: 50%;
+    border-color: rgb(0, 89, 254);
+}
 
 /* Right Main Container */
 .inner-right {
