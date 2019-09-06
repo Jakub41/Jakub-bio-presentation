@@ -259,3 +259,72 @@ p {
     line-height: 48px;
     margin-left: 8px;
 }
+
+/* Education Section */
+.education {
+    padding: 60px 0 20px 0;
+    position: relative;
+}
+
+.education::after {
+    background-color: #eaeaea;
+    content: " ";
+    height: 100%;
+    left: 49.9%;
+    position: absolute;
+    top: 0;
+    width: 1px;
+    z-index: 0;
+}
+
+.education .education-inner {
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 2;
+}
+
+.education .education-inner .institution {
+    float: left;
+    font-size: 18px;
+    padding-right: 4px;
+    position: relative;
+    text-align: right;
+    width: 46%;
+}
+
+.education .education-inner .institution::before {
+    background: #ffd42d;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    content: " ";
+    height: 20px;
+    position: absolute;
+    right: -2.7em;
+    top: 1px;
+    width: 20px;
+    background-clip: padding-box;
+}
+.education .education-inner .institution.color-switch::before {
+    background: #7e0000;
+}
+
+.education .education-inner .institution span.date {
+    color: #999999;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.education .education-inner .institution h4 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.education .education-inner .description {
+    margin-left: 46%;
+    padding-left: 69px;
+    position: relative;
+    text-align: left;
+    width: 45%;
+}
