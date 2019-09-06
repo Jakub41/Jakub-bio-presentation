@@ -8,6 +8,7 @@
 html,
 body {
     height: 100%;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 .presentation {
@@ -113,21 +114,26 @@ p {
     background: url('./icons/details-section/id-card.png') center / cover no-repeat;
     border: rgb(238, 234, 4);
 }
+
 #detail-age {
     background: url('./icons/details-section/walking-stick.png') center / cover no-repeat;
     border: none;
 }
+
 #detail-location {
     background: url('./icons/details-section/worldwide.png') center / cover no-repeat;
 }
+
 #detail-degree {
     background: url('./icons/details-section/scholarship.png') center / cover no-repeat;
     border: rgb(238, 234, 4);
 }
+
 #detail-cell {
     background: url('./icons/details-section/phone.png') center / cover no-repeat;
-    border: rgb(0, 128, 0); 
+    border: rgb(0, 128, 0);
 }
+
 #detail-email {
     background: url('./icons/details-section/arroba.png') center / cover no-repeat;
     border: none;
@@ -209,7 +215,45 @@ p {
 
 .inner-right p {
     line-height: 24px;
-    letter-spacing: 0px;
+    letter-spacing: 1px;
     font-size: 15px;
     font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+/* Bio Section */
+.inner-right .bio-section span {
+    color: rgb(250, 95, 23);
+    font-weight: bold;
+}
+
+/* Professional Experience Section */
+.inner-right .professional-ex-section ul li {
+    margin-top: 20px;
+    list-style: circle inside none;
+}
+
+.inner-right .professional-ex-section span {
+    color: rgb(122, 228, 0);
+    font-weight: bold;
+}
+
+.inner-right .professional-ex-section .cv-paragraph {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    line-height: 30px;
+}
+
+.inner-right .professional-ex-section .cv-paragraph a {
+    background: url('./icons/experience-section/job-seeker.png') center / cover no-repeat;
+    border: 1px solid rgb(122, 228, 0);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    float: left;
+    text-align: center;
+    line-height: 48px;
+    margin-left: 8px;
 }
