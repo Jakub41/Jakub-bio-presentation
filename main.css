@@ -1,6 +1,7 @@
-/* Default Styles*/
+/* Google Font */
 @import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
 
+/* Default Styles*/
 * {
     margin: 0;
 }
